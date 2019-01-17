@@ -9,9 +9,14 @@ img {
 
 ul {
     text-decoration: none;
+    list-style-type: none;
     color: black;
     width: 35vw;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+#main h1 {
+    font-size: 30px;
 }

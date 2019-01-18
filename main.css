@@ -1,3 +1,7 @@
+html {
+    font-family: Helvetica;
+}
+
 header {
     position: fixed;
     background-color: white;
@@ -44,4 +48,24 @@ a {
 
 #home, #services, #about, #contact {
     padding-top: 120px;
+}
+
+@media (max-width: 600px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    nav {
+        margin-top: 10px;
+        width: 100%;
+        padding: 0 50px;
+    }
+    ul {
+        flex-direction: column;
+    }
+    #home, #services, #about, #contact {
+        padding-top: 180px;
+    }
 }
